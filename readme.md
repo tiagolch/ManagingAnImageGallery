@@ -19,6 +19,6 @@ Este projeto é uma galeria de imagens que utiliza a API do Flickr para buscar e
 
 O projeto é composto pelos seguintes arquivos:
 
-- `index.php`: É o arquivo principal do projeto que exibe a galeria de imagens. Ele inclui os arquivos db.php e api.php para acessar o banco de dados e a API do Flickr, respectivamente. Ele também insere as imagens obtidas da API no banco de dados.
+- `index.php`: É o arquivo principal do projeto que exibe a galeria de imagens. Ele inclui os arquivos db.php e api.php para acessar o banco de dados e a API do Flickr, respectivamente. Ele também insere os dados das imagens obtidas da API no banco de dados.
 - `db.php`: É o arquivo que contém a classe SingletonImagesDB responsável por criar e gerenciar o banco de dados SQLite. Ele possui métodos para criar a tabela de imagens, inserir as imagens no banco de dados e fechar a conexão com o banco de dados.
 - `api.php`: É o arquivo que contém a classe FlickrAPI responsável por fazer a busca das imagens na API do Flickr. Ele possui um método `getPhotos()` que retorna um array com as informações das imagens obtidas da API.
