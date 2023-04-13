@@ -1,6 +1,6 @@
 # Galeria de Imagens
 
-Este projeto é uma galeria de imagens que utiliza a API do Flickr para buscar e exibir imagens de gatinhos ou de uma busca. O projeto é desenvolvido em PHP e utiliza uma classe SingletonImagesDB para criar e gerenciar um banco de dados SQLite para armazenar as informações das imagens exibidas na galeria.
+Este projeto é uma galeria de imagens que utiliza a API do Flickr para exibir imagens de gatinhos ou de uma busca. O projeto é desenvolvido em PHP e utiliza uma classe SingletonImagesDB para criar e gerenciar um banco de dados SQLite para armazenar as informações das imagens exibidas na galeria.
 
 ## Requisitos
 
